@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Car Shop - LandingPage</title>
 </head>
+
 <body>
     <header>
         <img src="./assets/img/logo.png" alt="logo">
@@ -19,11 +21,32 @@
         </nav>
     </header>
 
-    <section>
+    <section class="container">
         <div class="list">
-            <div class="item">
+            <div class="item active">
                 <div class="car-img">
                     <img src="./assets/img/1.png" alt="img-carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        Único dono
+                    </p>
+                    <h2>
+                        911 Turbo
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam magni quidem porro eum
+                        illo tempora delectus ipsum incidunt odio expedita enim minima molestiae ducimus ad, quod
+                        sapiente, voluptates id.
+                    </p>
+                    <button class="button-about-more">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+            <div class="item ">
+                <div class="car-img">
+                    <img src="./assets/img/2.png" alt="img-carro">
                 </div>
                 <div class="content">
                     <p class="car-information">
@@ -33,7 +56,30 @@
                         Ferrari
                     </h2>
                     <p class="description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam magni quidem porro eum illo tempora delectus ipsum incidunt odio expedita enim minima molestiae ducimus ad, quod sapiente, voluptates id.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam magni quidem porro eum
+                        illo tempora delectus ipsum incidunt odio expedita enim minima molestiae ducimus ad, quod
+                        sapiente, voluptates id.
+                    </p>
+                    <button class="button-about-more">
+                        Saiba mais
+                    </button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="car-img">
+                    <img src="./assets/img/3.png" alt="img-carro">
+                </div>
+                <div class="content">
+                    <p class="car-information">
+                        2015
+                    </p>
+                    <h2>
+                        Lamborghini
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam magni quidem porro eum
+                        illo tempora delectus ipsum incidunt odio expedita enim minima molestiae ducimus ad, quod
+                        sapiente, voluptates id.
                     </p>
                     <button class="button-about-more">
                         Saiba mais
@@ -42,8 +88,8 @@
             </div>
         </div>
         <div class="arrows">
-            <button><img src="./assets/img/arrow.png" alt="seta"></button>
-            <button><img src="./assets/img/arrow.png" alt="seta"></button>
+            <button id="prev"><img src="./assets/img/arrow.png" alt="seta"></button>
+            <button id="next"><img src="./assets/img/arrow.png" alt="seta"></button>
         </div>
 
         <div class="indicators">
@@ -56,4 +102,5 @@
         </div>
     </section>
 </body>
+<script src="./scripts/script.js"></script>
 </html>
